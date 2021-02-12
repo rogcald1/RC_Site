@@ -4,14 +4,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <a href="./index.html">main page</a>
-    <a href="./about.html">about me</a>
-    <a href="./projects.html">projects</a>
-    <br>
-<h1>Projects (Updated 2/10/2021)</h1>
+    <div id='header'>
+        <a id='headerLink' class="mp" href="./index.html">main page</a>
+        <a id='headerLink' class="am" href="./about.html">about me</a>
+        <a id='headerLink' class="pr" href="./projects.html">projects</a>
+    </div>
+<h1>Projects (Updated 2/11/2021)</h1>
+<h4>These are the projects I've worked on in order to get a good understanding of different programming languages. Do they look pretty?
+    Probably not. But it was important to me that they worked as intended and that the user has a good experience (no errors or confusion).
+    These can always use more work to look and function like a "real" site or app.
+</h4>
 <div>
-<ul>
+<ul class="projB">
+    <li><a href="https://rogcald1.github.io/RockPaperScissor/RPS%20with%20UI.html" targat="_blank">Rock Paper Scissor</a></li>
+    <p>Super early project with JavaScript and HTML. First usage of JS to adjust DOM elements. Code can most likely be written
+        better to not be as lengthy, but still works overall. </p>
+
     <li><a href="https://rogcald1.github.io/todolistproject/index.html" target="_blank">To Do List Project</a></li>
     <p>Mostly a JavaScript project, as well as a little HTML.</p>
     <p>I think for the most part, this one is fairly complete. Could always make more CSS design changes (and I may come back to it),
@@ -20,7 +28,8 @@
     <li><a href="https://rogcald1.github.io/CalculatorProject/index.html" target="_blank">Calculator Project</a></li>
     <p>Also a JavaScript project and HTML</p>
     <p>To me, infinitely trickier than the to-do project, and can definitely improve upon not only how the calculator works,
-        but the JS code itself. One existing issue that I'll also have to figure out is the "NaN" response if the result length is too long
+        but the JS code itself. One existing issue that I'll also have to figure out is the "NaN" response if the result length is too long.
+        Also worth looking into adding the functionality of hitting the keys instead of clicking on each number.
     </p>
 
     <li><a href="https://rogcald1.github.io/RecipeApp/" target="_blank">Recipe App</a></li>
@@ -30,6 +39,15 @@
     </p>
     <p>Going to come back to this and add some formatting and design to it. Also need to add something to catch an issue
         with the API - seems to hit some errors occasionally.
+    </p>
+
+    <li><a href="https://rogcald1.github.io/WeatherApp/index.html" target="_blank"> Weather App</a></li>
+    <p>More ReactJS with API work here. Slightly easier than the recipe app only because you only need two things from the user
+        instead of a list of ingredients. API was also easier to work with in comparison.
+    </p>
+    <p>I think this is also wrapped up for the time being. At least with what the weather API is able to provide. It'd be great if
+        the app wasn't dependent on lat/long but zip code instead, so that would require finding another API to help convert zip
+        to what is needed. 
     </p>
 </ul>
 </div>
